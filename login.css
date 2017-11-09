@@ -1,0 +1,61 @@
+body{
+  background-color: white;
+
+}
+.head{
+  width: auto;
+  border-radius: 10px;
+}
+
+#central {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px;
+  top: 80px;
+  padding:10px;
+  padding-bottom: 77px;
+  border-radius: 15px;
+}
+
+
+p{
+  font-family: sans-serif;
+  font-family: arial;
+  font-size: 17px;
+  padding: 2%;
+  text-align: justify;
+  text-indent: inherit;
+}
+
+form{
+  width: 50%;
+  border-radius: 15px;
+  padding: 12px;
+  padding-bottom: 10px;
+  background-color: rgba(220,220,220,0.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instrucoes{
+  text-align: center;
+  font-family: sans-serif;
+  font-family: arial;
+  font-size: 17px;
+  padding: 2%;
+  color: inherit;
+  text-indent: inherit;
+}
+
+.container{
+  margin-left: -80px;
+  margin-right: auto;
+
+}
+
+footer{
+  text-align: center;
+  background-color: #cdcdcd;
+  padding: 0.7%;
+}

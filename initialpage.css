@@ -1,13 +1,14 @@
 body{
-  background-color: #DCDCDC;
+  background-color: #white;
 
 }
 .head{
   width: auto;
-
+  border-radius: 10px;
 }
 img {
-  width: 10%;
+  width: 28%;
+
 }
 
 #central {
@@ -16,7 +17,7 @@ img {
   margin-right: auto;
   border: 1px;
   top: 80px;
-  padding:8px;
+  padding:10px;
   background-color: #ADD8E6;
   border-radius: 15px;
   background-color: rgba(255,255,255,0.7);
@@ -27,7 +28,7 @@ h2{
   font-variant: inherit;
   Color: purple;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
   font-size: 30px;
 
 }
@@ -38,19 +39,47 @@ h3{
   padding-left: 5%;
 }
 
-li{display: inline;}
+nav{
+  background-color: white;
+  display: block;
+  width: 20%;
+  float: left;
+  border: 2px solid #E4BB97;
+  margin: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px;
+  padding-left: 0px;
+  display: block;
+}
+
+li a:hover{
+  color: white;
+  background-color: #E4BB97;
+}
 
 #menu{padding:auto;}
 
-.retangulo p {text-align: center;}
-.quadrado p {text-align: center;}
-.paralelogramo p {text-align: center;}
-.triangulo p {text-align: center;}
-.losango p {text-align: center;}
-.trapezio p {text-align: center;}
 
-
-.retangulo {float: right; width: 25%; text-align: center;}
+.retangulo {float: right; width: 25%;}
 
 .quadrado {float: right; width: 25%;}
 
@@ -62,9 +91,15 @@ li{display: inline;}
 
 .trapezio {float: right;  width: 25%;}
 
+.circulo {float: right;  width: 25%;}
+
+.polregular {float: right;  width: 25%;}
+
+.ret{align-items: center;}
+
 footer {
   padding: 3px;
-  background-color: #DCDCDC;
+  background-color: rgba(220,220,220,0.4);
   display: block;
   text-align: center;
 }
@@ -77,8 +112,6 @@ footer small{
   font-family: fantasy;
 }
 
-
-
 p{
   font-family: sans-serif;
   font-family: arial;
@@ -86,8 +119,4 @@ p{
   padding: 2%;
   text-align: justify;
   text-indent: inherit;
-}
-
-div{
-
 }
