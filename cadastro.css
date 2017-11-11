@@ -70,3 +70,42 @@ footer p {
   font-size: 14px;
   color: navy;
 }
+
+
+nav{
+  background-color: white;
+  display: block;
+  width: 15%;
+  float: left;
+  border: 2px solid #E4BB97;
+  margin: 20px;
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 10px;
+
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px;
+  padding-left: 0px;
+  display: block;
+}
+
+li a:hover{
+  color: purple;
+  background-color: #dcdcdc;
+}

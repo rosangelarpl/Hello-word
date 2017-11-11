@@ -3,16 +3,20 @@ body{
 
 }
 .head{
-  width: auto;
+  width: 20%;
   border-radius: 10px;
 }
+
 img {
   width: 28%;
+}
 
+header{
+  text-align: center;
 }
 
 #central {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border: 1px;
@@ -20,8 +24,9 @@ img {
   padding:10px;
   background-color: #ADD8E6;
   border-radius: 15px;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255);
 }
+
 h2{
   font-family: fantasy;
   font-style: normal;
@@ -42,11 +47,12 @@ h3{
 nav{
   background-color: white;
   display: block;
-  width: 20%;
+  width: 15%;
   float: left;
   border: 2px solid #E4BB97;
   margin: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-left: 30px;
   border-radius: 10px;
 
 }
@@ -72,30 +78,13 @@ li a {
 }
 
 li a:hover{
-  color: white;
-  background-color: #E4BB97;
+  color: purple;
+  background-color: #dcdcdc;
 }
 
 #menu{padding:auto;}
 
-
-.retangulo {float: right; width: 25%;}
-
-.quadrado {float: right; width: 25%;}
-
-.paralelogramo {float: right;  width: 25%;}
-
-.triangulo {float: right;  width: 25%;}
-
-.losango {float: right;  width: 25%;}
-
-.trapezio {float: right;  width: 25%;}
-
 .circulo {float: right;  width: 25%;}
-
-.polregular {float: right;  width: 25%;}
-
-.ret{align-items: center;}
 
 footer {
   padding: 3px;
@@ -117,6 +106,8 @@ p{
   font-family: arial;
   font-size: 17px;
   padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   text-align: justify;
   text-indent: inherit;
 }
