@@ -25,6 +25,7 @@ header{
   background-color: #ADD8E6;
   border-radius: 15px;
   background-color: rgba(255,255,255);
+  display: block;
 }
 
 h2{
@@ -82,15 +83,12 @@ li a:hover{
   background-color: #dcdcdc;
 }
 
-#menu{padding:auto;}
-
-.circulo {float: right;  width: 25%;}
-
 footer {
   padding: 3px;
   background-color: rgba(220,220,220,0.4);
   display: block;
   text-align: center;
+  display: block;
 }
 
 footer small{
@@ -105,7 +103,7 @@ p{
   font-family: sans-serif;
   font-family: arial;
   font-size: 17px;
-  padding: 2%;
+  padding: 1%;
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;

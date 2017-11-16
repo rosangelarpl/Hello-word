@@ -9,7 +9,7 @@
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/triangulo.css">
-  <script src="js/triangulo.js" type="text/javascript"></script>
+  <script src="js/funcoes.js" type="text/javascript"></script>
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 </head>
@@ -18,9 +18,9 @@
 
   <article id="central">
     <header>
-      <img src="images/head.png" alt="Minha Figura"/ class="head">
+      <img src="images/head.png" alt="Minha Figura" class="head">
 
-      <img src="images/head.png" alt="Minha Figura"/ class="head">
+      <img src="images/head.png" alt="Minha Figura" class="head">
     </header>
     <div class="container">
       <div class="col-md-10">
@@ -55,7 +55,7 @@
 
     <h3> O que é um Triângulo?</h3>
 
-    <img src="images/triangulo.jpg" alt="Minha Figura"/ class="triangulo1">
+    <img src="images/triangulo.jpg" alt="Minha Figura" class="triangulo1">
 
 
     <p> Triângulos são polígonos formados por três lados. Os polígonos, por sua vez, são figuras geométricas formadas por segmentos de reta que, dois a dois, tocam-se em seus pontos extremos, mas que não se cruzam em qualquer outro ponto. Sendo assim, os triângulos herdam dos polígonos algumas características e propriedades básicas.</p>
@@ -71,7 +71,7 @@
         <li>Ângulos externos: são os ângulos que podem ser observados entre um lado de um triângulo e o prolongamento do lado adjacente a ele.</li>
 
       </ul>
-      <img src="images/triangulo-com-seus-elementos.jpg" alt="k"/ class="triangulo2">
+      <img src="images/triangulo-com-seus-elementos.jpg" alt="k" class="triangulo2">
 
       <h4>Elementos de um triangulo</h4>
 
@@ -82,7 +82,7 @@
         <li>Equilátero: triângulo que possui três lados com medidas iguais.</li>
 
       </ul>
-      <img src="images/primeira-classificacao-de-triangulos.jpg" alt="k"/ class="triangulo3">
+      <img src="images/primeira-classificacao-de-triangulos.jpg" alt="k" class="triangulo3">
 
       <p>Outra classificação possível para os triângulos refere-se às medidas de seus ângulos. Veja:</p>
       <ul class="lados">
@@ -91,7 +91,7 @@
         <li>Obtusângulo: Triângulo que possui um ângulo com medida superior a 90°.</li>
 
       </ul>
-      <img src="images/segunda-classificacao-de-triangulos.jpg" alt="k"/ class="triangulo4">
+      <img src="images/segunda-classificacao-de-triangulos.jpg" alt="k" class="triangulo4">
 
       <h4>Propriedades dos triângulos</h4>
       <p>As propriedades a seguir são válidas para qualquer triângulo, independentemente de sua forma ou tamanho.</p>
@@ -114,18 +114,18 @@
               <div class="form-group row">
                 <label for="base" class="col-sm-2 col-form-label">Base:</label>
                 <div class="col-sm-4">
-                  <input type="text" class="form-control" placeholder="tamanho da base">
+                  <input type="text" class="form-control" placeholder="tamanho da base" id="base">
                 </div>
               </div>
-              <img src="images/areatriangulo.png" alt=""/ class="areatriangulo">
-              <img src="images/area.png" alt=""/ class="formarea">
+              <img src="images/areatriangulo.png" alt="" class="areatriangulo">
+              <img src="images/area.png" alt="" class="formarea">
 
               <div class="form-group row">
                 <label for="altura" class="col-sm-2 col-form-label">Altura:</label>
                 <div class="col-sm-4">
-                  <input type="text" class="form-control"placeholder="tamanho da altura">
+                  <input type="text" class="form-control" placeholder="tamanho da altura" id="altura">
 
-                  <input type="button" value="Calcular" onclick="calcularAreaTriangulo();return true"/>
+                  <input class="btn-lg" type="button" value="Calcular" onclick="calcularAreaTriangulo();return true"/>
                 </div>
               </div>
 
@@ -136,7 +136,7 @@
 
                   <label for="inputPassword3" class="col-sm-2 col-form-label">Área</label>
                   <div class="col-sm-2">
-                    <input type="text" class="form-control" id="area" name:"area">
+                    <input type="text" class="form-control" id="area" name="area">
 
 
                   </div>

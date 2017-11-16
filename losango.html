@@ -5,11 +5,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> RETANGULO </title>
+  <title> LOSANGO </title>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/retangulo.css">
+  <link rel="stylesheet" type="text/css" href="css/losango.css">
   <script src="js/funcoes.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 </head>
 <body>
@@ -50,14 +51,21 @@
     </div> <!--container-->
 
 
-    <h2> Retangulo </h2>
+    <h2> Losango </h2>
 
-    <h3> O que é um Retangulo?</h3>
+    <h3> O que é um Losango?</h3>
 
-    <p> O retângulo é uma figura geométrica plana formada por quatro lados (quadrilátero). Dentre os lados, dois deles são menores, o que os difere dos quadrados.
-      Assim o retângulo é um paralelogramo formado por ângulos internos retos (90°) e congruentes (mesma medida).</p>
+    <p> Um losango é um polígono que possui quatro lados congruentes. Sendo assim, o losango é formado por segmentos de reta, chamados de lados do polígono, que se encontram apenas pelas extremidades. Esses segmentos de reta acabam formando uma figura fechada e seus lados não se cruzam em momento algum. Para ser losango, além de possuir todos os lados congruentes, a figura geométrica precisa ter exatamente quatro lados. Isso classifica o losango como quadrilátero.</p>
 
-    <img src="images/retangulo.jpg" alt="" class="retangulo1">
+
+    <img src="images/losango.jpg" alt="" class="losango1">
+    <p>Além disso, os losangos também são paralelogramos, pois, se um quadrilátero possui todos os lados congruentes, os lados opostos são paralelos.</p>
+    <h4>Área do losango</h4>
+    <p>Para calcular a área do losango é necessário traçar duas diagonais. Dessa forma tem-se 4 triângulos retângulos (com ângulo reto de 90º) iguais. Assim, podemos encontrar a área do losango a partir da área de 4 triângulos retângulos ou 2 retângulos.</p>
+    <p>Assim, a fórmula para encontrar a área do losango é representada da seguinte maneira:</p>
+    <img src="images/forlosango.jpg" alt="" class="formlosango">
+    <p>Sendo A, a área do losango, D1 a diagonal maior e D2 a diagonal maior.</p>
+    <img src="images/losango2.jpg" alt="" class="losango1">
 
 
       <div class="area">
@@ -66,20 +74,21 @@
             <form>
               <p class="instrucoes">DIGITE OS VALORES PEDIDOS PARA ENCONTRAR A ÁREA</p>
               <div class="form-group row">
-                <label for="base" class="col-sm-2 col-form-label">Base:</label>
+                <label for="base" class="col-sm-2 col-form-label">Diagonal maior:</label>
                 <div class="col-sm-4">
-                  <input type="text" class="form-control" placeholder="tamanho da base" id="base">
+                  <input type="text" class="form-control" placeholder="diagonal maior" id="diagonalmaior">
                 </div>
               </div>
-              <img src="images/arearet.png" alt="" class="arearetangulo">
+              <img src="images/forlosango.jpg" alt="" class="formlosango">
+
 
 
               <div class="form-group row">
-                <label for="altura" class="col-sm-2 col-form-label">Altura:</label>
+                <label for="altura" class="col-sm-2 col-form-label">Diagonal menor:</label>
                 <div class="col-sm-4">
-                  <input type="text" class="form-control"placeholder="tamanho da altura" id="altura">
+                  <input type="text" class="form-control"placeholder="tamanho da altura" id="diagonalmenor">
 
-                  <input type="button" value="Calcular" onclick="calcularAreaRetangulo();return true"/>
+                  <input type="button" value="Calcular" onclick="calcularAreaLosango();return true"/>
                 </div>
               </div>
 

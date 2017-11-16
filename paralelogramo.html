@@ -5,10 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> RETANGULO </title>
+  <title> PARALELOGRAMO </title>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/retangulo.css">
+  <link rel="stylesheet" type="text/css" href="css/paralelogramo.css">
   <script src="js/funcoes.js" type="text/javascript"></script>
 
 </head>
@@ -50,14 +50,20 @@
     </div> <!--container-->
 
 
-    <h2> Retangulo </h2>
+    <h2> Paralelogramo </h2>
 
-    <h3> O que é um Retangulo?</h3>
+    <h3> O que é um Paralelogramo?</h3>
 
-    <p> O retângulo é uma figura geométrica plana formada por quatro lados (quadrilátero). Dentre os lados, dois deles são menores, o que os difere dos quadrados.
-      Assim o retângulo é um paralelogramo formado por ângulos internos retos (90°) e congruentes (mesma medida).</p>
+    <p> O paralelogramo é uma figura plana que possui quatro lados. Ele faz parte dos estudos da geometria plana sendo um quadrilátero cujos lados opostos são paralelos. Em outras palavras, os paralelogramos são polígonos de quatro lados opostos congruentes (que possuem a mesma medida), por exemplo, o quadrado, o losango e o retângulo.</p>
 
-    <img src="images/retangulo.jpg" alt="" class="retangulo1">
+    <img src="images/paralelogramo.jpg" alt="" class="paralelogramo1">
+
+    <h4>Área do Paralelogramo</h4>
+    <p>Para encontrar a área do paralelogramo basta calcular o produto da medida da base pela altura, expressa pela fórmula:</p>
+    <p class="formula">A = b.h</p>
+    <p>Onde, <br/> A: área
+        <br/>b: base
+        <br/>h: altura</p>
 
 
       <div class="area">
@@ -71,7 +77,7 @@
                   <input type="text" class="form-control" placeholder="tamanho da base" id="base">
                 </div>
               </div>
-              <img src="images/arearet.png" alt="" class="arearetangulo">
+              <img src="images/areapar.png" alt="" class="areaparalelogramo">
 
 
               <div class="form-group row">
@@ -79,7 +85,7 @@
                 <div class="col-sm-4">
                   <input type="text" class="form-control"placeholder="tamanho da altura" id="altura">
 
-                  <input type="button" value="Calcular" onclick="calcularAreaRetangulo();return true"/>
+                  <input type="button" value="Calcular" onclick="calcularAreaParalelogramo();return true"/>
                 </div>
               </div>
 
