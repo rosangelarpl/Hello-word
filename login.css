@@ -2,8 +2,14 @@ body{
   background-color: white;
 
 }
+
+img{
+width: 60%; 
+}
+
+
 .head{
-  width: auto;
+  width: 45%;
   border-radius: 10px;
 }
 
@@ -54,10 +60,18 @@ form{
 
 }
 
+.redcadastro{
+  float: right;
+}
+
 footer{
   text-align: center;
   background-color: #cdcdcd;
-  padding: 0.7%;
+  padding: 0.2%;
+}
+
+footer p {
+  text-align: center;
 }
 
 nav{

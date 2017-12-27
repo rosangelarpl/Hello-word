@@ -3,7 +3,7 @@ body{
 
 }
 .head{
-  width: auto;
+  width: 45%;
   border-radius: 10px;
 }
 
@@ -64,11 +64,11 @@ form{
 footer{
   text-align: center;
   background-color: #cdcdcd;
-  padding: 0.7%;
+  padding: 0.2%;
 }
+
 footer p {
-  font-size: 14px;
-  color: navy;
+  text-align: center;
 }
 
 
@@ -79,15 +79,10 @@ nav{
   float: left;
   border: 2px solid #E4BB97;
   margin: 20px;
-  margin-top: 60px;
-  margin-left: 30px;
-  border-radius: 10px;
-
 }
 
 ul {
-  margin: 0 auto;
-  padding: 0;
+  margin-left: 10%;
   width: 90%;
 }
 
@@ -102,7 +97,6 @@ li a {
   font-weight: bolder;
   padding: 10px;
   padding-left: 0px;
-  display: block;
 }
 
 li a:hover{
